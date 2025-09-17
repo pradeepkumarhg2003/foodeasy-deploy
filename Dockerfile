@@ -2,7 +2,7 @@
 FROM tomcat:9.0
 
 # Copy your WAR file into Tomcat webapps folder
-COPY foodapp.war /usr/local/tomcat/webapps/foodapp.war
+COPY ROOT.war /usr/local/tomcat/webapps/ROOT.war
 
 # Expose port 8080
 EXPOSE 8080
