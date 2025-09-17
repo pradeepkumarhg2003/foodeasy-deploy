@@ -1,2 +1,2 @@
-foodapp.war filter=lfs diff=lfs merge=lfs -text
+ROOT.war filter=lfs diff=lfs merge=lfs -text
 *.war filter=lfs diff=lfs merge=lfs -text
